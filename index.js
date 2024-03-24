@@ -8,7 +8,7 @@ function showCredits(status) {
         let packageJson = require(packageJsonPath);
 
         const type = "credits";
-        if(packageJson.arc !== false) console.log(`[${chalk.black.bgGreen(type.toUpperCase())}] ${atob(packageJson.cc || "Developed by RonaldZav")}`);
+       if(packageJson.arc !== false) console.log(`[${chalk.black.bgGreen(type.toUpperCase())}] ${atob(packageJson.cc || btoa("Developed by RonaldZav"))}`);
     };
 };
 
