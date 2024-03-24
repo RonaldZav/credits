@@ -1,0 +1,27 @@
+{
+  "name": "@ronaldzav/credits",
+  "version": "1.0.0",
+  "description": "Add your watermark to your software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watermark",
+    "credits"
+  ],
+  "author": "Ronald Zavala",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronaldzav/credits.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ronaldzav/credits/issues"
+  },
+  "homepage": "https://github.com/ronaldzav/credits#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "path": "^0.12.7"
+  }
+}
